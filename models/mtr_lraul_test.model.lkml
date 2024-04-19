@@ -2,6 +2,7 @@ connection: "thelook"
 
 # include all the views
 include: "/views/**/*.view.lkml"
+include: "/lraul_pdt.view.lkml"
 
 datagroup: mtr_lraul_test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
